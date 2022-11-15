@@ -12,18 +12,18 @@ body {
   align-items: center;
   justify-content: center;
   max-height: 100vh;
-  background: #1a1a1a;
+  background: #fff;
 }
 
 .container {
   width: 350px;
   height: 350px;
   margin-top: 5%;
-  background: #2a2a2a;
+  background: #fff;
   position: relative;
   border-radius: 50%;
   overflow: hidden;
-  box-shadow: 0 0 1000px -40px rgba(0, 255, 0, 0.5);
+  box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.5);
   transition: 3s all;
 }
 
@@ -42,37 +42,37 @@ body {
   font-weight: 1000;
   /* font-family: monospace; */
   /* letter-spacing: 5px; */
-  color: #fff;
+  color: #1a1a1a;
   writing-mode: vertical-rl;
 }
 
 .container .one {
-  background: #272727;
+  background: violet;
   left: 50%;
 }
 
 .container .two {
-  background: #343434;
+  background: purple;
   transform: rotate(60deg);
 }
 
 .container .three {
-  background: #272727;
+  background: indianred;
   transform: rotate(120deg);
 }
 
 .container .four {
-  background: #343434;
+  background: green;
   transform: rotate(180deg);
 }
 
 .container .five {
-  background: #272727;
+  background: yellow;
   transform: rotate(240deg);
 }
 
 .container .six {
-  background: #343434;
+  background: red;
   transform: rotate(300deg);
 }
 
@@ -96,18 +96,18 @@ body {
   font-weight: 1000;
   color: #fff;
   cursor: pointer;
-  box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+  box-shadow: 0 0 20px rgba(104, 230, 223, 0.7);
   transform: 0.2s all;
 }
 
 #spin:hover {
-  box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+  box-shadow: 0 0 10px rgba(71, 158, 154, 0.7);
 }
 
 .stopper {
   height: 30px;
   width: 30px;
-  background: rgb(0, 255, 0);
+  background: rgb(100, 41, 41);
   position: absolute;
   margin-top: -280px;
   clip-path: polygon(100% 0, 50% 100%, 0 0);
